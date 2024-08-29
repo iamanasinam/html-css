@@ -1,0 +1,30 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    font-style: italic;
+    font-size: 50px;
+    color: #A020F0;
+}
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h3{
+    font-family: "indie flower";
+    color: rgb(243, 207, 198);
+    font-size: 35px;
+}
+
+p{
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
