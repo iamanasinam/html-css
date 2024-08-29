@@ -7,6 +7,11 @@ h1 {
     margin: 0 auto;
     width: 1000px;
     height: 800px;
+    display: flex;
+    /* for the first task */
+    /* flex-direction: column;   */
+    /* for the 2nd task */
+    flex-direction: row-reverse;
   }
   
   span {
