@@ -3,20 +3,23 @@ h1 {
     text-align:center;
   }
 
-  /* 1st task is to use the align content and make all the things center in the wrap format */
+
+  /* 2nd task is to use the align content and make all the things left in the wrap format */
   .container  {
     background-color: #283593;
     margin: 0 auto;
     width: 1200px;
     height: 800px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
   }
   span {
     width: 250px;
+    height: 150px;
     color: white;
     background-color: #26C6DA;
     font-size: 3rem;
@@ -24,3 +27,18 @@ h1 {
     text-align:center;
     border-radius: 20px;
   }
+
+
+
+    /* 1st task is to use the align content and make all the things center in the wrap format */
+    /* .container  {
+        background-color: #283593;
+        margin: 0 auto;
+        width: 1200px;
+        height: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      } */
