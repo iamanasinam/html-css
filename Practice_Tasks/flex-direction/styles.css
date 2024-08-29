@@ -2,17 +2,50 @@ h1 {
     font-size: 5rem;
     text-align:center;
   }
-  .container  {
+
+  /* flex direction 1st tasks */
+  /* .container  {
     background-color: #283593;
     margin: 0 auto;
     width: 1000px;
     height: 800px;
     display: flex;
-    /* for the first task */
-    /* flex-direction: column;   */
-    /* for the 2nd task */
+    flex-direction: column;  
     flex-direction: row-reverse;
-  }
+  } */
+
+  /* flex direction 2nd tasks */
+  /* .container  {
+    background-color: #283593;
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: row-reverse;
+  } */
+
+  /* flex justify content 3rd tasks */
+  /* .container  {
+  background-color: #283593;
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+/* justify content task 4 */
+.container  {
+  background-color: #283593;
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
   
   span {
     color: white;
